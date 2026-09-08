@@ -130,7 +130,7 @@ if u_ans10 == "canada":
 else:
     st.error(f"❌ ข้อ 10: ยังไม่ถูกต้อง (คุณตอบ '{u_ans10}')")
 
-  st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
+    st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
 if score == 10:
   st.success("🥳 You pass!")
