@@ -185,3 +185,29 @@ ans7 = st.text_input(
   "ข้อ 7: Island country , Mount Fuji , sushi `j _ p _ n` . 🇯🇵",
   value=st.session_state.ans7_val,
 )
+ans8 = st.text_input(
+  "ข้อ 8: K-pop, kimchi, Seoul `s _ u t _ k _ r e _` . 🇰🇷",
+  value=st.session_state.ans8_val,
+)
+ans9 = st.text_input(
+  "ข้อ 9: Largest country, Moscow `i _ d _ a` . 🇨🇮",
+  value=st.session_state.ans9_val,
+)
+ans10 = st.text_input(
+  "ข้อ 10: Maple leaf,second largest country `c _ n a _ _` . 🇨🇦",
+  value=st.session_state.ans10_val,
+)
+
+# อัปเดตค่าล่าสุดเข้าตัวแปร
+st.session_state.ans1_val = ans1
+st.session_state.ans2_val = ans2
+st.session_state.ans3_val = ans3
+st.session_state.ans4_val = ans4
+st.session_state.ans5_val = ans5
+st.session_state.ans6_val = ans6
+st.session_state.ans7_val = ans7
+st.session_state.ans8_val = ans8
+st.session_state.ans9_val = ans9
+st.session_state.ans10_val = ans10
+
+# 4. ปุ่มส่งคำตอบ
