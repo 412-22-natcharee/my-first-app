@@ -134,7 +134,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
   if score == 10:
     st.success("🥳 You pass!")
-  elif score >= 1 and score <= 4:  
+  elif score >= 5 and score <= 9:  
     st.info("🥰well done")
   else:
     st.error("😭You fail")
