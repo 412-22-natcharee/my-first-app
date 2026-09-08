@@ -117,7 +117,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     st.error(f"❌ ข้อ 8: ยังไม่ถูกต้อง (คุณตอบ '{u_ans8}')")
 
   # ตรวจข้อ 9
-  if u_ans9 == "india":
+  if u_ans9 == "russia":
     st.success("✅ ข้อ 9: ถูกต้อง")
     score += 1
   else:
@@ -158,43 +158,43 @@ st.divider()
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-  "ข้อ 1: Southeast Asia,never colonized `t _ a _ l _ _ d` . 🇹🇭",
+  "ข้อ 1: Southeast Asia,never colonized `t _ a _ l _ _ d` . 🛕",
   value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-  "ข้อ 2: North America,Statue of Liberty `u _ i t _ d s _ a _ e s`. 🇺🇸",
+  "ข้อ 2: North America,Statue of Liberty `u _ i t _ d s _ a _ e s`. 🗽",
   value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-  "ข้อ 3: Largest population,Great Wall `c _ i _ a` . 🇨🇳",
+  "ข้อ 3: Largest population,Great Wall `c _ i _ a` . 🧧",
   value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-  "ข้อ 4: London,Big Ben `u n _ t _ d k _ n _ d _ m` . 🇬🇧",
+  "ข้อ 4: London,Big Ben `u n _ t _ d k _ n _ d _ m` . 💂",
   value=st.session_state.ans4_val,
 )
 ans5 = st.text_input(
-  "ข้อ 5: Kangaroos,Great Barrier Reef `a _ s t _  a _ i a` . 🇦🇺",
+  "ข้อ 5: Kangaroos,Great Barrier Reef `a _ s t _  a _ i a` . 🦘",
   value=st.session_state.ans5_val,
 )
 ans6 = st.text_input(
-  "ข้อ 6: Eiffel Tower , wine , pastries `f _ a n c _` . 🇫🇷",
+  "ข้อ 6: Eiffel Tower , wine , pastries `f _ a n c _` . 🗼",
   value=st.session_state.ans6_val,
 )
 ans7 = st.text_input(
-  "ข้อ 7: Island country , Mount Fuji , sushi `j _ p _ n` . 🇯🇵",
+  "ข้อ 7: Island country , Mount Fuji , sushi `j _ p _ n` . 🍣",
   value=st.session_state.ans7_val,
 )
 ans8 = st.text_input(
-  "ข้อ 8: K-pop, kimchi, Seoul `s _ u t _ k _ r e _` . 🇰🇷",
+  "ข้อ 8: K-pop, kimchi, Seoul `s _ u t _ k _ r e _` . 💃",
   value=st.session_state.ans8_val,
 )
 ans9 = st.text_input(
-  "ข้อ 9: Largest country, Moscow `i _ d _ a` . 🇨🇮",
+  "ข้อ 9: Largest country, Moscow `r _ s s _ a` . 🪆",
   value=st.session_state.ans9_val,
 )
 ans10 = st.text_input(
-  "ข้อ 10: Maple leaf,second largest country `c _ n a _ _` . 🇨🇦",
+  "ข้อ 10: Maple leaf,second largest country `c _ n a _ _` . 🍁",
   value=st.session_state.ans10_val,
 )
 
